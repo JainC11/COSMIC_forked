@@ -21,7 +21,7 @@
 
 import numpy as np
 from numpy.random import uniform, normal
-from scipy.integrate import RK45, quad, simps, cumtrapz
+from scipy.integrate import RK45, quad, simpson as simps, cumulative_trapezoid as cumtrapz
 from scipy.interpolate import interp1d
 from scipy.special import erf
 
